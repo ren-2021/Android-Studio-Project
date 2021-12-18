@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Method"
+            android:textColor="@color/SeaGreen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="30dp"
+            android:text="@string/_2"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/textView15"
+            android:text="Encrypting email with Outlook"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView16"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Before you start sending secret admirer notes on Outlook, a couple requirements stand in your way. The first is that you must have a digital certificate. If you don’t already have a digital certificate, either one you created or from your organization, then you’ll need to create one: •	Go to File > Options > Trust Center > Trust Center Settings > Email Security, Get a Digital ID. •	Choose which certification authority you want to receive a digital ID from (we recommend Comodo). •	You will receive your digital ID in an email. Now that you have a digital certificate/ID, follow these instructions to get it into Outlook: •	Select Tools > Options and click the Security tab •	Input a name of your choice into the Security Settings Name field •	Make sure S/MIME is selected on the Secure Message Format box •	The Default Security Setting should be checked •	Under Certificates and Algorithms, go to the Signing Certificate section and click Choose •	In the Select Certificate box, choose your Secure Email Certificate if it hasn’t been selected by default •	Check “Send these Certificates with Signed Messages” •	Click OK to save your settings and return to Outlook Okay, so now you’ve got a digital signature to put on your emails, but they won’t appear by default. To attach your digital signature: •	Click New Message •	Go to Tools > Customize and click the Commands tab •	In the Categories list, choose Standard •	In the Commands list, click Digitally Sign Message •	You can click and drag the listing onto your toolbar, so from now on just click that to add your digital signature •	While we’re at it, click and drag Encrypt Message Contents and Attachments onto the toolbar as well At this point we want to remind you that digitally signing an email is not the same as encrypting it. However, if you want to send someone an encrypted message on Outlook, that person needs to have sent you at least one email with their digital signature attached. This is how Outlook knows it can trust the sender. Conversely, if you want to receive an encrypted email from someone else, you’ll need to send them one unencrypted email first with your digital signature on it. This is a tedious downside to S/MIME. You can digitally sign your email just by clicking the new Sign button before sending. Now that you have each other’s digital signatures and certificates saved into your respective key chains (address books), you can start exchanging encrypted emails. Just click the Encrypt button that we added before hitting send, and that’s all there is to it! " />
+
+    </RelativeLayout>
+</ScrollView>

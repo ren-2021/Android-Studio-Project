@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/step"
+            android:textColor="@color/SeaGreen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="30dp"
+            android:text="@string/_7"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/textView15"
+            android:text="Switch your computer to the TV's display. "
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView16"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text='There are several ways that you can do this, depending on the type of computer that you are using. •	Many laptops have a "Display" key that will switch between connected displays. You may need to press the Fn key to access it, and it may just have a symbol instead of the word "Display". •	In Windows 7 and later, you can press the Windows key + P to open the Project menu. You can then select which display mode you want to use (computer, TV, extended desktop, or duplicate displays). •	In any version of Windows, you can right-click on the desktop and select "Screen Resolution" or "Properties". The "Multiple displays" menu will allow you to select between the different display modes (computer, TV, extended desktop, or duplicate displays). ' />
+
+    </RelativeLayout>
+</ScrollView>

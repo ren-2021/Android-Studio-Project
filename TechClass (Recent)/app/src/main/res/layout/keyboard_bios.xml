@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToList.EnterBios.KeyboardBios">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="@android:dimen/app_icon_size"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="false"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center|left"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                app:srcCompat="@drawable/ic_arrow_back_black_24dp" />
+
+            <TextView
+                android:id="@+id/search_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@+id/imageView45"
+                android:text="Keyboard BIOS"
+                android:textColor="@color/Black"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:id="@+id/activity_comp_two"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="How to enter BIOS in Windows 10 When you’ve run into an annoying computer bug or need to modify CPU hardware for a newly upgraded processor, you will need access to your computer BIOS. Windows 10 laptops and PCs make accessing, checking, and updating your BIOS a breeze by offering two easy methods to achieve the results you’re aiming for. Let’s break down both methods. Method #1: Use hotkey during boot-up It may be too quick for you to have ever noticed, but your PC goes through a rapid POST process to get your startup screen loaded up as fast as it can. It is also within this tightly timed window that you can access your BIOS by clicking your PC’s designated hotkey. Unfortunately, different PC brands were all on different pages when designating a definitive BIOS key. HP laptops generally use F10 or the escape key. DEL and F2 tend to be the most popular hotkeys for PCs, but if you’re unsure of what your brand’s hotkey is, this list of common BIOS keys by brand may help. •	Acer: F2 or DEL •	ASUS: F2 for all PCs, F2 or DEL for motherboards •	Dell: F2 or F12 •	HP: ESC or F10 •	Lenovo: F2 or Fn + F2 •	Lenovo (Desktops): F1 •	Lenovo (ThinkPads): Enter + F1. •	MSI: DEL for motherboards and PCs •	Microsoft Surface Tablets: Press and hold volume up button. •	Origin PC: F2 •	Samsung: F2 •	Sony: F1, F2, or F3 •	Toshiba: F2 Pressing your assigned BIOS hotkey while your computer boots up should retrieve the BIOS setup utility screen you’re looking for. For example, on an HP Pavilion, HP EliteBook, HP Stream, HP OMEN, HP ENVY and more, pressing the F10 key just as your PC status comes up will lead you to the BIOS setup screen. Some manufacturers require repeated hotkey presses, and some require another button to be pressed in addition to the hotkey. To best equip yourself with the most accurate information, check with your PC’s user manual or the manufacturer's website. " />
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

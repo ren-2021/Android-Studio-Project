@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Step"
+            android:textColor="@color/SeaGreen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="30dp"
+            android:text="@string/_4"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/textView15"
+            android:text="Modify the refresh rate"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView16"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="If you’re finding that your laptop screen flicker only occurs when you’ve linked your PC to an external monitor, the problem could be the refresh rates. A device’s refresh rate is a measurement of the number of times the screen redraws in one second. A laggy refresh rate can look like flicker when in reality you’re just dealing with slow video processing. Follow these steps to align your laptop’s and external monitor’s refresh rates. Step 1. Open the Power User menu by right-clicking the Windows taskbar icon. Step 2. Select “Settings.” Step 3. Within settings, select “System.” Step 4. On the side taskbar, click “Display.” Step 5. Under “Multiple displays,” select “Advanced display settings.” Step 6. Observe the refresh rates under the display information for your laptop and external monitor. Step 7. Click “Display adapter properties” for either device to modify settings. If your display supports a higher refresh rate but the rate is not available on your PC, reinstalling the latest driver will be your quickest fix.  " />
+
+    </RelativeLayout>
+</ScrollView>

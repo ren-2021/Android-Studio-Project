@@ -1,0 +1,52 @@
+//noinspection GradleCompatible
+//noinspection ExpiredTargetSdkVersion
+//noinspection GradleDeprecatedConfiguration
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion '29.0.0'
+    defaultConfig {
+        applicationId "com.example.del.techclass"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    implementation "androidx.appcompat:appcompat:1.1.0"
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.0.0'
+
+    implementation "androidx.browser:browser:${rootProject.browserLibraryVersion}"
+    implementation "androidx.recyclerview:recyclerview:${rootProject.recyclerViewLibraryVersion}"
+    implementation "com.arthurivanets.adapster:adapster:${rootProject.adapsterLibraryVersion}"
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:+'
+
+    testImplementation "junit:junit:4.13"
+    androidTestImplementation "androidx.test:runner:${rootProject.testRunnerVersion}"
+
+
+}

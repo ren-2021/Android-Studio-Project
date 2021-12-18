@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Method"
+            android:textColor="@color/SeaGreen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="30dp"
+            android:text="1"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/textView15"
+            android:text="Take Quick Screenshots with Print Screen (PrtScn)"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView64"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_below="@id/textView16"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/prtsc" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView64"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Take a Screenshot of Part of Your Screen"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView32"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Press “Windows + Shift + S”. Your screen will appear grayed out and your mouse cursor will change. Click and drag on your screen to select the part of your screen you want to capture. A screenshot of the screen region you selected will be copied to your clipboard. You can paste it in any application by selecting Edit > Paste or pressing Ctrl + V, just as you’d paste a full-screen shortcut taken with the Print Screen key." />
+
+        <ImageView
+            android:id="@+id/imageView61"
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:layout_below="@id/textView33"
+            app:srcCompat="@drawable/prtscc" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView61"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Save Your Screenshot as a File"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView28"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Press the “Windows logo key + PrtScn.” If you’re using a tablet, press the “Windows logo button + volume down button.” On some laptops and other devices, you may need to press the “Windows logo key + Ctrl + PrtScn” or “Windows logo key + Fn + PrtScn” keys instead." />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView29"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Save Your Screenshot as a File using Other tool"
+            android:textColor="@color/Black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView30"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Press the “PrtScn” key. A screenshot of your display is now copied to the clipboard. Open your favorite image editor, word processor, or other program you want to use the image in. Choose Edit > Paste to paste the screenshot wherever you like. The dimensions of the image will be the same as your desktop resolution." />
+
+    </RelativeLayout>
+</ScrollView>

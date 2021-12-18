@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToList.Encrypt_Files.EncryptFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:text="How to Fix a Laptop Keyboard When It’s Locked"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Is your HP laptop keyboard locked and preventing you from getting work done? While this can be frustrating, the good news is that there are several reasons why this may have happened and a handful of potential solutions. In this article, we’ll provide a comprehensive checklist for how to accurately identify the problem and safely address issues with your keyboard software. The explanation for these issues can be elusive, but the solution is generally easy. To get you started, here’s the basic checklist that we’ll explore: Confirm that your laptop isn’t just frozen Look for physical damage on your keyboard or individual keys Make sure the keyboard is clean and free of obstructions Shut down and try rebooting as usual Uninstall your keyboard drivers and reboot to reset If none of these solutions work, there’s a good chance that you’re actually dealing with a bigger problem. In that case, you may want to contact the manufacturer’s support team or bring your laptop to a local repair shop." />
+
+
+    </RelativeLayout>
+
+</ScrollView>

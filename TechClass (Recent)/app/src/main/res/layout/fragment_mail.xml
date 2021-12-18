@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:text="How email encryption works"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Encryption, put simply, is no more than scrambling up the contents of a message so that only those with a key can decrypt it. Sort of like those puzzles you did in school where every letter of the alphabet had to be converted to some other letter of the alphabet so as to decode the final message. Computers make the scrambling far more complex and impossible for a human to crack by hand. When you encrypt an email, its contents are scrambled, and only the receiver has the key to unscramble it." />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView72"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="To make sure only the intended recipient can decrypt the message, email encryption uses something called public key cryptography. Each person has a pair of keys–the digital codes that allow you to decrypt an encrypted message. Your public key is stored on a key server where anyone can find it, along with your name and email address. Conversely, you can find other people’s public keys on keyservers to send them encrypted email." />
+
+
+    </RelativeLayout>
+
+</ScrollView>

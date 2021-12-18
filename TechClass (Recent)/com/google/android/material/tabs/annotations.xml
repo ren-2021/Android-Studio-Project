@@ -1,0 +1,5 @@
+<root>
+    <item name='com.google.android.material.tabs.TabLayout.BaseOnTabSelectedListener'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

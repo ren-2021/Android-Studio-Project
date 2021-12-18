@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_abtexting"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.del.techclass.FragmentsTerms.abtexting"
+    android:background="@drawable/backgroundred">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_dark"
+        android:theme="?attr/actionBarTheme"
+        android:minHeight="?attr/actionBarSize"
+        android:id="@+id/toolbar6" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardElevation="10dp"
+        card_view:cardCornerRadius="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="1dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
+
+        <View
+            android:id="@+id/vivi"
+            android:layout_width="137dp"
+            android:layout_height="5dp"
+            android:background="@android:color/holo_green_dark"
+            android:layout_marginTop="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp" />
+
+        <View
+            android:layout_width="14dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_green_light" />
+
+        <TextView
+            android:text="BIG DATA"
+            android:layout_width="164dp"
+            android:layout_height="67dp"
+            android:id="@+id/textView4"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:textStyle="normal|bold"
+            android:textColorHighlight="@android:color/holo_green_dark"
+            android:textColor="#1B240F" />
+
+        <TextView
+            android:text="           ~Massively large sets of digital information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="#1A2F01"
+            android:textSize="24sp"
+            android:gravity="fill_vertical"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="100dp"
+            android:background="#E6FACF"
+            android:layout_marginRight="4dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

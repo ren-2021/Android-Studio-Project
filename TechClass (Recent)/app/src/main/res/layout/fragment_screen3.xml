@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Step"
+            android:textColor="@color/SeaGreen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="30dp"
+            android:text="@string/_3"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/textView15"
+            android:text="Disable Windows Desktop Manager"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView16"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Windows 10 is lauded for its innovative visual effects and elements that set it apart from other competing operating systems. Desktop Window Manager is an all-encompassing window manager that makes all of those appealing transparent windows, live taskbar thumbnails and high-resolution monitor support features possible. Unfortunately, there is a small chance that the window manager’s processes are responsible for your laptop screen flicker. To disable Desktop Window Manager follow these steps: Step 1. Access the Power User menu by right-clicking the Windows taskbar icon. Step 2. Select “Run.” Step 3. Type “services.msc” into the Run dialog box. Step 4. Locate “Desktop Window Manager Session Manager.” Step 5. Right-click on it and select “Stop.” Step 6. Right click “Desktop Window Manager Session Manager” again Step 7. Select “Properties.” Step 8. Under the “General” tab, modify the start-up type to “Disabled.” Step 9. Press “OK.” " />
+
+    </RelativeLayout>
+</ScrollView>

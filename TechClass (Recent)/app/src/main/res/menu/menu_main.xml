@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.del.techclass.MainActivity">
+
+    <item
+        android:id="@+id/Exit"
+        android:icon="@drawable/exit"
+        android:title="exit"
+        app:showAsAction="ifRoom" />
+</menu>

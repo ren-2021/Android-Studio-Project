@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Step"
+            android:textColor="@color/SeaGreen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="30dp"
+            android:text="@string/_2"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/textView15"
+            android:text="Download latest drivers directly from the manufacturer"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView16"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="Windows 10 does an excellent job of updating your PC with necessary fixes and patches but some important drivers go by the wayside. If your laptop screen has started flickering, you may be overdue for a manual driver update. If you’re unsure of your display card’s manufacturer, you can check it by following these easy steps. Step 1. Access the Power User menu by right-clicking the Windows taskbar icon. Step 2. Select “Run.” Step 3. Type “dxdiag” into the Run dialog box. Step 4. The DirectX Diagnostic Tool window will pop up, granting access to all of your PC’s hardware information. On the top toolbar, you’ll see a number of tabs. Step 5. Select “Display 1.” Step 6. The name, manufacturer, device type, and all other related display information will be readily available. With the manufacturer and device name information, you’ll know exactly where to look for direct driver updates and downloads. The vast majority of HP laptops are supported by the following display driver manufacturers: •	NVIDIA •	Intel •	AMD Each manufacturer will have a page dedicated to driver updates and downloads to best service your specific driver. " />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/step"
+            android:textColor="@color/SeaGreen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="30dp"
+            android:text="@string/_1"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/textView15"
+            android:text="Determine how your computer can connect to the TV"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView16"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Connecting your computer to your TV requires connecting the two via a video cable. On the back of your computer, you'll see multiple ports and connectors. Video connectors may be located near the USB, speaker, and Ethernet connections, or you may have a separate graphics card further down the back of the computer. There are three main connectors that you want to look for on your computer:[1] •	HDMI - This is the current standard for connecting HD devices, and most modern computers will have an HDMI port on the back. HDMI carries both picture and audio. The HDMI port looks like a longer USB port. •	DVI - This is a digital connection that uses pins. DVI connectors are rectangular and have three rows of eight pins each. DVI only transfers the image signal. •	VGA - This is the old standard for connecting display devices. It is a trapezoidal connection with 15 pins arranged in three rows, and is typically blue. Avoid using this connection if you have access to DVI or HDMI, as VGA is the lowest-quality. VGA only transfers the image signal, and cannot display HD images. " />
+
+    </RelativeLayout>
+</ScrollView>

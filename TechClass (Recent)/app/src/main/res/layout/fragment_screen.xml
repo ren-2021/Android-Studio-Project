@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HowToList.Encrypt_Files.EncryptFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:text="How to Stop Laptop Screen Flickering"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView72"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:text="Computer problems are a headache, and a flickering laptop screen can definitely cause one. It can destroy productivity in the office, and turn a couch-cinema experience into a royal inconvenience. The constant blinking only serves to distract and frustrate, so the moment it starts, you’ll be in need of a quick solution. Fixing a flickering laptop screen doesn’t necessarily require a trip to the PC repair shop. Solutions as simple as lowering and raising the screen repeatedly or updating your graphics card drivers may solve your blinking screen dilemma. But what causes a laptop screen to flicker and what are the many fixes that work to stop it? This guide will answer all of your burning questions. " />
+
+
+    </RelativeLayout>
+
+</ScrollView>

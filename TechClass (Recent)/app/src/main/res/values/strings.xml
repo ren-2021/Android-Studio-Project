@@ -1,0 +1,481 @@
+<resources>
+    <string name="app_name">TechClass</string>
+    <string-array name="list_sample">
+        <item>• The currently loaded USB driver has become unstable or corrupt</item>
+        <item>•	Your PC motherboard may need updated drivers</item>
+        <item>•	Your PC requires an update for issues that may conflict with a USB external hard drive and Windows</item>
+        <item>•	Your external drive may be entering selective suspend</item>
+        <item>•	Windows may be missing other important updates hardware or software issues</item>
+        <item>•	Your USB controllers may have become unstable or corrupt</item>
+    </string-array>
+    <string-array name="array_item">
+        <item>A/B TESTING</item>
+        <item>Ad Hoc Network</item>
+        <item>Affiliate Marketing</item>
+        <item>Analog</item>
+        <item>ANSI</item>
+        <item>API</item>
+        <item>Apple</item>
+        <item>APPLICATION</item>
+        <item>ARP</item>
+        <item>Artificial Intelligence</item>
+        <item>ASCII</item>
+        <item>Assistive Technology</item>
+        <item>ATTRIBUTE</item>
+        <item>Augmented Reality</item>
+        <item>Back End</item>
+        <item>BarCraft</item>
+        <item>Baseband</item>
+        <item>Bespoke</item>
+        <item>Bézier Curve</item>
+        <item>BIG DATA</item>
+        <item>Binary</item>
+        <item>Biometrics</item>
+        <item>Bitcoin</item>
+        <item>Blacklist</item>
+        <item>Bluetooth</item>
+        <item>Boolean</item>
+        <item>Boot</item>
+        <item>Boot Sector</item>
+        <item>Boot Sequence</item>
+        <item>Bounce Rate</item>
+        <item>Breadcrumbs</item>
+        <item>Buffer</item>
+        <item>Bug</item>
+        <item>Burn</item>
+        <item>Cache</item>
+        <item>Caching</item>
+        <item>CAD</item>
+        <item>Call to Action (CTA)</item>
+        <item>CamelCase</item>
+        <item>Camera RAW</item>
+        <item>Caps Lock</item>
+        <item>CDMA</item>
+        <item>Character</item>
+        <item>Circuit</item>
+        <item>Clean Room</item>
+        <item>Client-Server Model</item>
+        <item>Clock Cycle</item>
+        <item>Clock Speed</item>
+        <item>Cloud Computing</item>
+        <item>CMYK</item>
+        <item>Cold Boot</item>
+        <item>Color Theory</item>
+        <item>Color Value</item>
+        <item>Column</item>
+        <item>Computer Ethics</item>
+        <item>Computer Science</item>
+        <item>Configuration</item>
+        <item>Constant</item>
+        <item>Content Curation</item>
+        <item>Content Marketing</item>
+        <item>Conversion</item>
+        <item>Copyright</item>
+        <item>Copyright Infringement</item>
+        <item>CPS</item>
+        <item>Crop</item>
+        <item>Crossplatform</item>
+        <item>Cryptography</item>
+        <item>CSS</item>
+        <item>CSS3</item>
+        <item>CTP</item>
+        <item>CLICK THROUGH RATE (CTR)</item>
+        <item>CUDA</item>
+        <item>Cybercrime</item>
+        <item>Data Architecture</item>
+        <item>Database</item>
+        <item>Data Mining</item>
+        <item>Data Modelling</item>
+        <item>Data Visualization</item>
+        <item>DAW</item>
+        <item>Declaration</item>
+        <item>DDL</item>
+        <item>Default</item>
+        <item>Defragment</item>
+        <item>Delete</item>
+        <item>Denary</item>
+        <item>DEVOPS//</item>
+        <item>Developer</item>
+        <item>DFS</item>
+        <item>Digital</item>
+        <item>Digitize</item>
+        <item>Dithering</item>
+        <item>DMZ</item>
+        <item>Domain</item>
+        <item>Dot Matrix</item>
+        <item>Double Click</item>
+        <item>DPI</item>
+        <item>Drag</item>
+        <item>DRM</item>
+        <item>DTD</item>
+        <item>DV</item>
+        <item>E-learning</item>
+        <item>Edutainment</item>
+        <item>Element</item>
+        <item>Email Marketing</item>
+        <item>Embedding</item>
+        <item>Emulation</item>
+        <item>Encryption</item>
+        <item>End User</item>
+        <item>Engagement</item>
+        <item>Enterprise</item>
+        <item>Ergonomics</item>
+        <item>eSports</item>
+        <item>EUP</item>
+        <item>FAQ</item>
+        <item>FDDI</item>
+        <item>Field</item>
+        <item>FIFO</item>
+        <item>File System</item>
+        <item>FILO</item>
+        <item>FIREWALL</item>
+        <item>Flexible</item>
+        <item>Floating Point</item>
+        <item>FLOPS</item>
+        <item>Flowchart</item>
+        <item>Font</item>
+        <item>Font Case</item>
+        <item>Footer</item>
+        <item>Format</item>
+        <item>Formula</item>
+        <item>FQDN</item>
+        <item>Fragmentation</item>
+        <item>Frame</item>
+        <item>FRAMEWORK</item>
+        <item>Frequency</item>
+        <item>Front End</item>
+        <item>Full-Duplex</item>
+        <item>FUNNEL</item>
+        <item>Gigaflops</item>
+        <item>Gigahertz</item>
+        <item>GIGO</item>
+        <item>GIS</item>
+        <item>GPGPU</item>
+        <item>GPIO</item>
+        <item>GPS</item>
+        <item>Graphics</item>
+        <item>Grayscale</item>
+        <item>Grid System</item>
+        <item>Growth Hacking</item>
+        <item>Hacker</item>
+        <item>Half-Duplex</item>
+        <item>Halftone</item>
+        <item>Handshake</item>
+        <item>Hard Copy</item>
+        <item>HDTV</item>
+        <item>HDV</item>
+        <item>Header</item>
+        <item>Hertz</item>
+        <item>Hexadecimal</item>
+        <item>HFS</item>
+        <item>Hibernate</item>
+        <item>Hybrid App</item>
+        <item>HTML</item>
+        <item>HTML5</item>
+        <item>Hostname</item>
+        <item>Hover</item>
+        <item>Hyper-Threading</item>
+        <item>I/O</item>
+        <item>IDE</item>
+        <item>IDS</item>
+        <item>IEEE</item>
+        <item>Impressions</item>
+        <item>Influencer</item>
+        <item>Infotainment</item>
+        <item>Input</item>
+        <item>Integer</item>
+        <item>Integrated</item>
+        <item>Intellectual Property</item>
+        <item>Interlaced</item>
+        <item>Intranet</item>
+        <item>IPS</item>
+        <item>IPX</item>
+        <item>ISO</item>
+        <item>IT</item>
+        <item>IVR</item>
+        <item>JFS</item>
+        <item>Kerning</item>
+        <item>Keystroke</item>
+        <item>Keywords</item>
+        <item>Kilohertz</item>
+        <item>LAN</item>
+        <item>Leading</item>
+        <item>Leaf</item>
+        <item>Left-Click</item>
+        <item>LIFO</item>
+        <item>Load Balancing</item>
+        <item>Localhost</item>
+        <item>Log On</item>
+        <item>Logic Gate</item>
+        <item>Login</item>
+        <item>LPI</item>
+        <item>LTE</item>
+        <item>LUN</item>
+        <item>Macintosh</item>
+        <item>MANET</item>
+        <item>Margin</item>
+        <item>Marketing Automation</item>
+        <item>Markup Language</item>
+        <item>Matrix</item>
+        <item>MDI</item>
+        <item>Megahertz</item>
+        <item>Megapixel</item>
+        <item>Memory Bank</item>
+        <item>Mention</item>
+        <item>Meta Elements</item>
+        <item>Metadata</item>
+        <item>MicroBlogging</item>
+        <item>Micron</item>
+        <item>MIDI</item>
+        <item>Mini DV</item>
+        <item>MIPS</item>
+        <item>MIS</item>
+        <item>MMS</item>
+        <item>Mnemonic</item>
+        <item>Mobile</item>
+        <item>Monochrome</item>
+        <item>Mood Board</item>
+        <item>Multichannel</item>
+        <item>Multimedia</item>
+        <item>Multiplatform</item>
+        <item>Namespace</item>
+        <item>Nanometer</item>
+        <item>Native App</item>
+        <item>Network</item>
+        <item>Network Topology</item>
+        <item>Newbie</item>
+        <item>Newline</item>
+        <item>NINO</item>
+        <item>NTFS</item>
+        <item>NFC</item>
+        <item>NUI</item>
+        <item>Null</item>
+        <item>Num Lock</item>
+        <item>OASIS</item>
+        <item>OOP</item>
+        <item>OEM</item>
+        <item>Offline</item>
+        <item>OLAP</item>
+        <item>Online</item>
+        <item>OpenCL</item>
+        <item>Opening Tag and Closing Tag</item>
+        <item>Optimization</item>
+        <item>Organic</item>
+        <item>OSI Model</item>
+        <item>OTA</item>
+        <item>Output</item>
+        <item>Overwrite</item>
+        <item>Page Fault</item>
+        <item>Page Orientation</item>
+        <item>Parity</item>
+        <item>Parity Bit</item>
+        <item>Parse</item>
+        <item>Partition</item>
+        <item>Passcode</item>
+        <item>Passphrase</item>
+        <item>Password</item>
+        <item>Peopleware</item>
+        <item>Phreak</item>
+        <item>Piconet</item>
+        <item>Pixel</item>
+        <item>Plagiarism</item>
+        <item>Platform</item>
+        <item>Podcast</item>
+        <item>Port</item>
+        <item>Power User</item>
+        <item>PPI</item>
+        <item>PPM</item>
+        <item>Pretest</item>
+        <item>Primary Key</item>
+        <item>Progressive Scan</item>
+        <item>Property</item>
+        <item>Push</item>
+        <item>QR Code</item>
+        <item>Queue</item>
+        <item>QWERTY</item>
+        <item>RAID</item>
+        <item>Raster</item>
+        <item>RDF</item>
+        <item>Reach</item>
+        <item>Read-only</item>
+        <item>Real Number</item>
+        <item>RTC</item>
+        <item>Recursion</item>
+        <item>Recursive Function</item>
+        <item>Redundancy</item>
+        <item>Refresh</item>
+        <item>Refresh Rate</item>
+        <item>Regular Expression</item>
+        <item>RDBMS</item>
+        <item>Remote Access</item>
+        <item>Remote User</item>
+        <item>Rendering</item>
+        <item>Resolution</item>
+        <item>RWD</item>
+        <item>Restore</item>
+        <item>Retina Display</item>
+        <item>RGB</item>
+        <item>Right Click</item>
+        <item>Ripcording</item>
+        <item>RJ45</item>
+        <item>ROUTER</item>
+        <item>Row</item>
+        <item>RUP</item>
+        <item>Safe Mode</item>
+        <item>Sample</item>
+        <item>Sample Rate</item>
+        <item>Sampling</item>
+        <item>Scalable</item>
+        <item>SDK</item>
+        <item>Search Engine</item>
+        <item>SELECTOR</item>
+        <item>SELF-CLOSING TAG</item>
+        <item>SEMANTIC ELEMENT</item>
+        <item>SEO</item>
+        <item>SERIF</item>
+        <item>Sidebar</item>
+        <item>Simplex</item>
+        <item>SITEMAP</item>
+        <item>SKU</item>
+        <item>SLA</item>
+        <item>Smart Home</item>
+        <item>SMS</item>
+        <item>SOA</item>
+        <item>Soft Copy</item>
+        <item>SOFTWARE</item>
+        <item>SOCIAL GRAPH</item>
+        <item>Speech Recognition</item>
+        <item>Spooling</item>
+        <item>SPX</item>
+        <item>sRGB</item>
+        <item>SSID</item>
+        <item>Stack</item>
+        <item>Standalone</item>
+        <item>Standby</item>
+        <item>Storage Capacity</item>
+        <item>Structural Element</item>
+        <item>Subnet Mask</item>
+        <item>Subscript</item>
+        <item>Superscript</item>
+        <item>Swipe</item>
+        <item>Sync</item>
+        <item>Syntax</item>
+        <item>System Analyst</item>
+        <item>System Hardening</item>
+        <item>System Resources</item>
+        <item>Table</item>
+        <item>Target Disk Mode</item>
+        <item>Technology Services</item>
+        <item>Telecommunications</item>
+        <item>Teleconference</item>
+        <item>Telehealth</item>
+        <item>Terahertz</item>
+        <item>TEXT EDITOR</item>
+        <item>Text Alignment</item>
+        <item>TFTP</item>
+        <item>Third Party</item>
+        <item>Thread</item>
+        <item>Throughput</item>
+        <item>Token</item>
+        <item>TRAFFIC</item>
+        <item>TRIM</item>
+        <item>Troubleshooting</item>
+        <item>Truncate</item>
+        <item>Tweak</item>
+        <item>Typeface</item>
+        <item>TYPE HIERARCHY</item>
+        <item>U</item>
+        <item>USER FLOW</item>
+        <item>User Interface</item>
+        <item>USER PERSONA</item>
+        <item>USER RESEARCH</item>
+        <item>UAT</item>
+        <item>UDDI</item>
+        <item>UEFI</item>
+        <item>UNC</item>
+        <item>UPTIME and DOWNTIME</item>
+        <item>USER-GENERATED CONTENT (UGC)</item>
+        <item>User-Friendly</item>
+        <item>Username</item>
+        <item>UX</item>
+        <item>VALUE</item>
+        <item>Vaporware</item>
+        <item>Variable</item>
+        <item>Vector</item>
+        <item>Veronica</item>
+        <item>VERSION CONTROL</item>
+        <item>VFAT</item>
+        <item>Viral</item>
+        <item>VIRTUAL MACHINE (VM)</item>
+        <item>Virtual Memory</item>
+        <item>Virtual Reality</item>
+        <item>VLAN</item>
+        <item>VLE</item>
+        <item>VPN – VIRTUAL PRIVATE NETWORK</item>
+        <item>VRML</item>
+        <item>Warm Boot</item>
+        <item>Wavelength</item>
+        <item>WEB APP</item>
+        <item>WEB SERVER</item>
+        <item>WEP</item>
+        <item>White Balance</item>
+        <item>White Paper</item>
+        <item>Whitelist</item>
+        <item>Wi-Fi</item>
+        <item>Wildcard</item>
+        <item>WiMAX</item>
+        <item>Wired</item>
+        <item>WireFrame</item>
+        <item>Wireless</item>
+        <item>WPA</item>
+        <item>XML</item>
+        <item>XSLT</item>
+        <item>Y2K</item>
+        <item>4K</item>
+        <item>802.11a</item>
+        <item>802.11ac</item>
+        <item>802.11b</item>
+        <item>802.11g</item>
+        <item>802.11n</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="enjoy_tech_games">Enjoy Tech GAMES</string>
+    <string name="todo">TODO</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="search">Search</string>
+    <string name="tools">Tools</string>
+    <string name="cable">Cable</string>
+    <string name="materials">Materials</string>
+    <string name="crimping_tool">Crimping Tool</string>
+    <string name="rj_45_connectors">RJ-45 connectors</string>
+    <string name="step">Step</string>
+    <string name="_1">1</string>
+    <string name="remove_the_outer_sleeve_of_the_cable_at_approximately_1_inch_from_the_end">Remove the outer sleeve of the cable at approximately 1 inchfrom the end.</string>
+    <string name="_2">2</string>
+    <string name="untwist_and_straighten_the_wires_inside_of_the_cable">Untwist and straighten the wires inside of the cable.</string>
+    <string name="separate_the_wires_and_straighten_them_out_so_that_its_easier_to_sort_them_into_the_right_order">Separate the wires and straighten them out so that its easier to sort them into the right order.</string>
+    <string name="_3">3</string>
+    <string name="arrange_the_wires_into_the_right_order">Arrange the wires into the right order.</string>
+    <string name="arrange_the_wires_in_a_proper_sequence_from_left_to_right_orange_white_orange_green_white_blue_blue_white_green_brown_white_brown">Arrange the wires in a proper sequence from left to right: Orange-White, Orange, Green-White, Blue, Blue-White, Green, Brown-White, Brown.</string>
+    <string name="_4">4</string>
+    <string name="cut_the_wires_into_an_even_line_1_2_inch">Cut the wires into an even line 1/2 inch.</string>
+    <string name="hold_the_wires_with_your_thumb_and_index_finger_to_keep_them_in_order_then_use_the_cutting_section_of_the_crimping_tool_to_cut_them_into_an_even_line">Hold the wires with your thumb and index finger to keep them in order. Then, use the cutting section of the crimping tool to cut them into an even line.</string>
+    <string name="_5">5</string>
+    <string name="insert_the_wires_into_the_rj_45">Insert the wires into the RJ-45</string>
+    <string name="hold_the_rj_45_connector_in_which_the_small_metal_pis_are_facing_up_and_the_clip_is_on_the_underside_keep_the_wires_in_order_and_put_them_into_the_rj_45">Hold the RJ-45 connector in which the small metal pis are facing up and the clip is on the underside. Keep the wires in order and put them into the RJ-45.</string>
+    <string name="_6">6</string>
+    <string name="stick_the_connector_into_the_crimping_tool_part_and_squeeze_twice">Stick the connector into the crimping tool part and squeeze twice.</string>
+    <string name="insert_it_until_it_can_t_fit_any_further_and_then_queeze_it_make_sure_all_the_pins_are_pushed_down">Insert it until it can\'t fit any further and then queeze it. Make sure all the pins are pushed down.</string>
+    <string name="_7">7</string>
+    <string name="repeat_the_same_process_to_the_other_side_of_the_cable">Repeat the same process to the other side of the cable.</string>
+    <string name="_8">8</string>
+    <string name="testing_the_cable">Testing the Cable</string>
+    <string name="plug_your_cable_connector_to_specific_device_and_see_if_it_works">Plug your cable connector to specific device and see if it works.</string>
+    <string name="title_activity_account_pass">AccountPass</string>
+</resources>

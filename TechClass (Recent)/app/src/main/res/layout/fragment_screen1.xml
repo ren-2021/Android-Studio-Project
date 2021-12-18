@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvLabel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Step"
+            android:textColor="@color/SeaGreen"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="30dp"
+            android:text="1"
+            android:textColor="@color/Black"
+            android:textSize="30sp"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvLabel2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/textView15"
+            android:text="Update your display driver"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView16"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="In order to properly update your computer’s display driver, you’ll need to start your computer up on Safe Mode, uninstall your current display adapter, and check for driver updates. This three-part, 10-step process will do the trick. How to boot in Safe Mode Step 1. Press the Windows taskbar button and press the gear symbol to access your PC settings. Step 2. Select “Updates and Security.” Step 3. On the left-side taskbar, select “Recovery.” Step 4. Under “Advanced startup” select “Restart now.” This will reboot your computer and send you to a blue troubleshoot screen that lets you manage everything from startup repairs to system restores. Step 5. Select “Advanced options.” Step 6. Select “Startup Settings,” and press “Restart.” Step 7. Once your PC reboots, select option #4 using number keys or function keys 1-9 to “Enable Safe Mode.” How to uninstall the current display driver Step 1. To uninstall your current display driver in safe mode, right-click your Windows taskbar to access the Power User menu. Step 2. Select “Device Manager.” Step 3. Within the device manager window, extend the “Display adapters” tab to reveal your PC’s active display devices. Step 4. Right-click the name of your current display adapter to access an operations task list. Step 5. Press “Uninstall device.” Step 6. A new box will pop-up, giving you the option to “delete the driver software for this device.” Step 7. Check this box off, and press “Uninstall.” Step 8. Restart your PC. How to reinstall display drivers Step 1. Open settings from the Power User menu again (right-clicking the Windows taskbar icon). Step 2. Select “Update and security.” Step 3. Under the “Windows Update” tab, select “Check for updates” to download and install the most up-to-date display driver. " />
+
+    </RelativeLayout>
+</ScrollView>
